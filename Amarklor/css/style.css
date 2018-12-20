@@ -1,0 +1,67 @@
+body, html {
+    margin: 5px;
+    padding: 5px;
+    padding-top: 5px;
+    min-height: 100%;
+    height: 100%;
+    background-color:#2D2C38;
+}
+
+.box {
+  background-color: #1B1820;
+  color: white;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+#bxlabelFT{
+ margin-top:30px;
+ font-size: large;
+ color: #00AAC4;
+}
+
+#bxlabelFTtop{
+
+ padding-bottom:5px;
+ font-size: large;
+ color: #00AAC4;
+ 
+}
+.metric{
+    padding-top:30px;
+    color: white;
+    font-size: 200%;
+}
+
+#logo{
+     padding-top:10px
+}
+
+.wrapper {
+		display: grid;
+        text-align: center;
+        grid-gap: 5px;
+		grid-template-columns: repeat(3,200px);
+		grid-template-rows: minmax(100px, max-content)
+	}
+#top{
+        display: grid;
+        grid-gap: 10px;
+        width:607px;
+        text-align: center;
+        border-bottom:5px solid red;
+        border-top:2px solid red;
+        border-left:2px solid red;
+        border-right:5px solid red;  
+		font-size: 150%;
+		padding-top:5px;
+		padding-bottom:0px;
+		color:#fa4b68;
+}
+
+#display{
+		font-size: 150%;
+		padding-top:5px;
+		padding-bottom:0px;
+		
+}
